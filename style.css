@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+.card {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding-bottom: 40px;
+}
+.upper-card {
+    background-image: url("images/discs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.upper-card img {
+    width: 200px;
+    height: 250px;
+    margin-left: 200px;
+}
+.lower-card {
+    background-color: #fff;
+    height: 390px;
+    width: 400px; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.lower-card h2,#exp-text{
+    text-align: center;
+    padding-top: 20px;
+}
+h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+.plan {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#change {
+    margin-left: 55px;
+    padding-top: 10px;
+}
+#change:hover{
+    color: hsla(245, 73%, 51%, 0.801);
+    cursor: pointer;
+}
+#plan-t {
+    margin-left: 5px;
+}
+#p-txt {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    background-color: hsla(245, 73%, 51%, 0.801);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: hsla(245, 73%, 51%, 0.601);
+}
+a {
+    text-decoration: none;
+    margin-right: 25%;
+    color: hsl(223, 47%, 23%);
+}
+#x-order {
+    margin-top: 30px;
+    margin-left: 40%;
+    font-weight: bold;
+}
+p {
+    color:hsl(224, 23%, 55%);
+}
+
+@media only screen and (max-width: 375px){
+    body {
+        font-size: 16px;
+        background-image: url("images/pattern-background-mobile.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+    
+    .card {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        padding-bottom: 40px;
+    }
+	.upper-card {
+        background-image: url(images/discs.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 300px;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .lower-card {
+        background-color: #fff;
+        height: 390px;
+        width: 300px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .plan {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .upper-card img {
+    width: 150px;
+    height: 150px;
+    margin-left: 121px;
+    margin-top: 100px;
+    }
+    #x-order {
+        margin-top: 30px;
+        margin-left: 35%;
+    }
+}
