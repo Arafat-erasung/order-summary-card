@@ -60,7 +60,9 @@ h1 {
     margin-left: 55px;
     border: none;
     background-color: #fff;
-    
+    color: #00ff;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: underline;
 }
 .btn-1:hover{
     color: hsla(245, 74%, 51%, 0.801);
@@ -95,7 +97,7 @@ a {
     margin-right: 25%;
     color: hsl(223, 31%, 60%);
 }
-#x-order {
+.x-order {
     margin-top: 30px;
     margin-left: 40%;
 }
@@ -146,7 +148,7 @@ p {
     margin-left: 121px;
     margin-top: 100px;
     }
-    #x-order {
+    .x-order {
         margin-top: 30px;
         margin-left: 35%;
     }
