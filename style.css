@@ -11,16 +11,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
-}
-
-
-.card {
-    display: block;
-    position: absolute;
-    top: 20%;
-    left: 30%;
     padding-bottom: 40px;
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
 }
+
 .upper-card {
     background-image: url("images/discs.jpg");
     background-size: cover;
